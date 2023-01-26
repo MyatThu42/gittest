@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,300;1,300&family=Kanit:wght@700&family=Playfair+Display:ital@1&display=swap');
+
+
+.card{
+    border: 1px solid;
+    width: 350px;
+    margin-left: 20px;
+    padding: px;
+    border-radius: 10px ;
+    margin-bottom: 10px;
+    display: inline-block;
+    /* overflow: hidden; */
+    vertical-align: top;
+}
+
+.card-body{
+    /* margin-left: 15px; */
+    padding: 15px;
+    padding-bottom: 0px;
+}
+
+.card-title{
+    font-family: 'Kanit', sans-serif;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.card-text{
+    font-family: 'Exo 2', sans-serif;
+    
+}
+
+.card .center{
+    text-align: center;
+}
+
+.card .right{
+    text-align: right;
+}
+
+.img-head{
+    width: 100%;
+    display: block;
+    border-radius: 10px 10px 0 0;
+    
+}
+
+.btn-div{
+    position :relative;
+    margin-bottom: -15px;
+    margin-left: 10px;
+}
+
+.btn{
+    width: 80px;
+    text-decoration: none;
+    display: block;
+    /* border: 1px solid; */
+    padding: 5px 10px;
+    background-color: #000;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+
+}
+
+.circle{
+    position :relative;
+    margin-bottom: -15px;
+    margin-left: 10px;
+}
+
+.heart{
+    width: 80px;
+    text-decoration: none;
+    display: block;
+    /* border: 1px solid; */
+    padding: 5px 10px;
+    background-color: #000;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+
+}
+
+.icon-center{
+    text-align: center;
+}
+.icon-center:hover{
+    color: blue;
+}
+
+.heart{
+    float: right;
+    margin-top: -15px;
+    position: relative;
+    margin-right: 20px;
+    width: 20px;
+
+}
